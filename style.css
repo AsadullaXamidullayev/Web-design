@@ -1,0 +1,597 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+header .headerTop {
+  width: 1440px;
+  height: 888px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827;
+}
+header .headerTop .topCenter {
+  width: 1287px;
+  height: 787px;
+  position: relative;
+}
+header .headerTop .topCenter .nav {
+  width: 1170px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerTop .topCenter .nav .navLeft {
+  width: 96px;
+  height: 34.25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .headerTop .topCenter .nav .navLeft h2 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+header .headerTop .topCenter .nav .navRight {
+  width: 656px;
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .headerTop .topCenter .nav .navRight ul {
+  display: flex;
+  margin-left: -150px;
+}
+header .headerTop .topCenter .nav .navRight ul li {
+  margin-left: 60px;
+}
+header .headerTop .topCenter .nav .navRight ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+header .headerTop .topCenter .nav .navRight ul li a:hover {
+  color: yellowgreen;
+}
+header .headerTop .topCenter .nav .navRight #topLink {
+  width: 132px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+header .headerTop .topCenter .nav .navRight #topLink:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  transition: 0.5s;
+}
+header .headerTop .topCenter .glavni .glavniLeft {
+  width: 540px;
+  height: 348px;
+  position: absolute;
+  top: 326px;
+}
+header .headerTop .topCenter .glavni .glavniLeft h1 {
+  background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  font-family: "DM Sans", sans-serif;
+}
+header .headerTop .topCenter .glavni .glavniLeft p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "DM Sans", sans-serif;
+  width: 554px;
+  color: #fff;
+  margin-top: 29px;
+}
+header .headerTop .topCenter .glavni .glavniLeft .buttom {
+  display: flex;
+  width: 320px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -10px;
+}
+header .headerTop .topCenter .glavni .glavniLeft .buttom a {
+  width: 135px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  border-radius: 6px;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
+header .headerTop .topCenter .glavni .glavniLeft .buttom a:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  transition: 680ms;
+}
+header .headerTop .topCenter .glavni .glavniLeft .buttom .info1 {
+  width: 135px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
+header .headerTop .topCenter .glavni .glavniLeft .buttom .info1 img {
+  margin-right: 2px;
+}
+header .headerTop .topCenter .glavni .glavniLeft .buttom .info1:hover {
+  border: none;
+}
+header .headerTop .topCenter .glavni .right12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.navtop {
+  width: 1440px;
+  height: 888px;
+  background-color: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navtop .topCenter {
+  width: 1170px;
+  height: 886px;
+}
+.navtop .topCenter .text {
+  width: 587px;
+  margin-left: 250px;
+}
+.navtop .topCenter .text h2 {
+  color: #fff;
+  font-family: #111827;
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+}
+.navtop .topCenter .text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.navtop .topCenter .boxInfo {
+  width: 1370px;
+  height: 716px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-left: -110px;
+  margin-top: 40px;
+}
+.navtop .topCenter .boxInfo .box {
+  width: 370px;
+  height: 336px;
+  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  opacity: 0.8;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.navtop .topCenter .boxInfo .box:hover {
+  transform: scaleZ(0.5) perspective(100px) translateZ(10px);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.navtop .topCenter .boxInfo .box h2 {
+  color: white;
+  font-weight: auto;
+  font-size: 24px;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 19px;
+}
+.navtop .topCenter .boxInfo .box p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 26px;
+  font-family: "DM Sans", sans-serif;
+  width: 344px;
+  color: #fff;
+  margin-top: 17px;
+  margin-left: 23px;
+}
+.navtop .topCenter .boxInfo .box a {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+.navtop .topCenter .boxInfo .box a:hover {
+  color: #D946EF;
+}
+
+section .sectionTop {
+  width: 1440px;
+  height: 588px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827;
+}
+section .sectionTop .sectionCenter {
+  width: 1214px;
+  height: 588px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .sectionTop .sectionCenter .centerRight h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+}
+section .sectionTop .sectionCenter .centerRight p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+section .sectionTop .sectionCenter .centerRight a {
+  display: block;
+  width: 99px;
+  height: 31px;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+section .sectionTop .sectionCenter .centerRight a:hover {
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+article .sectionTop {
+  width: 1440px;
+  height: 442px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827;
+}
+article .sectionTop .topCenter {
+  width: 1170px;
+  height: 442px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+article .sectionTop .topCenter .text {
+  width: 480px;
+}
+article .sectionTop .topCenter .text h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+}
+article .sectionTop .topCenter .text p {
+  color: white;
+  font-weight: 400;
+  font-size: 400;
+  font-size: 16px;
+  text-align: center;
+}
+article .sectionTop .topCenter .boxinfo {
+  width: 1170px;
+  height: 266px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 34px;
+  margin-top: 40px;
+}
+article .sectionTop .topCenter .boxinfo .boxAbout {
+  width: 270px;
+  height: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  border-radius: 34px;
+  transition: 0.2s;
+}
+article .sectionTop .topCenter .boxinfo .boxAbout:hover {
+  transform: scaleZ(0.5) perspective(100px) translateZ(10px);
+  cursor: pointer;
+}
+article .sectionTop .topCenter .boxinfo .boxAbout img {
+  margin-top: 32px;
+}
+article .sectionTop .topCenter .boxinfo .boxAbout h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  margin-top: -20px;
+}
+article .sectionTop .topCenter .boxinfo .boxAbout p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 100;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 3%;
+}
+article .sectionTop .topCenter .boxinfo .boxAbout .icons {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -30px;
+}
+article .articleButtom {
+  width: 1440px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827;
+}
+article .articleButtom .centerInfo {
+  width: 1170px;
+  height: 295px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+  position: relative;
+}
+article .articleButtom .centerInfo h2 {
+  font-size: 42px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+}
+article .articleButtom .centerInfo p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+}
+article .articleButtom .centerInfo input {
+  width: 860px;
+  height: 80px;
+  background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+  border-radius: 70px;
+  margin-top: 29px;
+  padding-left: 44px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+article .articleButtom .centerInfo .button {
+  position: absolute;
+  top: 183px;
+  right: 163px;
+}
+article .articleButtom .centerInfo .button a {
+  width: 196px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  opacity: 0.9;
+  border-radius: 70px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  transition: 0.9s;
+}
+article .articleButtom .centerInfo .button a img {
+  margin-right: 8px;
+}
+article .articleButtom .centerInfo .button a:hover {
+  background: transparent;
+  border: 2px solid white;
+}
+
+footer {
+  position: relative;
+}
+footer .footerTop {
+  width: 1440px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827;
+}
+footer .footerTop .footerCenter {
+  width: 1190px;
+  height: 216px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footerTop .footerCenter .centerLeft {
+  width: 220px;
+  height: 212px;
+}
+footer .footerTop .footerCenter .centerLeft #listIcon {
+  margin-left: -30px;
+}
+footer .footerTop .footerCenter .centerLeft #listIcon li {
+  margin-top: 10px;
+}
+footer .footerTop .footerCenter .centerLeft #listIcon li a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .footerTop .footerCenter .centerLeft #listIcon li a:hover {
+  color: #D946EF;
+}
+footer .footerTop .footerCenter .centerLeft #list2 {
+  width: 192.8px;
+  height: 32.2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -35px;
+}
+footer .footerTop .footerCenter .centerLeft #list2 li {
+  width: 32.2px;
+  height: 32.2px;
+  border-radius: 50%;
+  background-color: #171E2D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(61, 61, 61);
+  margin-left: 5px;
+}
+footer .footerTop .footerCenter .centerLeft #list2 li:hover {
+  transform: scaleZ(0.5) perspective(100px) translateZ(10px);
+  cursor: pointer;
+}
+footer .footerTop .footerCenter .centerLeft #list2 li a {
+  color: #fff;
+}
+footer .footerTop .footerCenter .centerRight {
+  width: 860px;
+  height: 207px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footerTop .footerCenter .centerRight ul {
+  display: flex;
+  flex-direction: column;
+}
+footer .footerTop .footerCenter .centerRight ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration: none;
+}
+footer .footerTop .footerCenter .centerRight ul li a:hover {
+  color: #D946EF;
+}
+footer .footerBottom {
+  width: 1440px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827;
+  border-top: 2px solid #969696;
+}
+footer .footerBottom .centerListi {
+  width: 1140px;
+  height: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+footer .footerBottom .centerListi h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #fff;
+}
+footer .footerBottom .centerListi h2:hover {
+  color: #D946EF;
+  cursor: pointer;
+}
+footer .footerBottom .centerListi ul {
+  display: flex;
+}
+footer .footerBottom .centerListi ul li {
+  margin-left: 53px;
+}
+footer .footerBottom .centerListi ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+footer .footerBottom .centerListi ul li a:hover {
+  color: #D946EF;
+}
+footer .top {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22355e;
+  font-size: 28px;
+  color: #fff;
+  position: absolute;
+  top: 320px;
+  right: 100px;
+}
+footer .top a {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
